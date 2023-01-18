@@ -1,3 +1,15 @@
 img{
     width: 10%;
 }
+#nav{
+    border-top: solid 10px #2C4001;
+}
+#nav ul li, #nav ul li a{
+    display: block;
+    height: 46px;
+    line-height: 46px;
+}
+#nav ul li{
+    list-style-type: none;
+    margin: 10px;
+}
