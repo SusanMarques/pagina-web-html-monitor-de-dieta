@@ -1,3 +1,6 @@
+body{
+    text-align: justify;
+}
 img{
     width: 10%;
 }
@@ -12,4 +15,10 @@ img{
 #nav ul li{
     list-style-type: none;
     margin: 10px;
+}
+#nav ul li a{
+    background: url(../img/mainnav_bg.gif);
+}
+i{
+    color: #84BF04;
 }
