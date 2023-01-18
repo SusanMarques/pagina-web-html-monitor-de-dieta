@@ -2,7 +2,8 @@ body{
     text-align: justify;
 }
 img{
-    width: 10%;
+    width: 15%;
+    padding: 10px 0 10px 60px;
 }
 #nav{
     border-top: solid 10px #2C4001;
@@ -11,14 +12,38 @@ img{
     display: block;
     height: 46px;
     line-height: 46px;
+    border: 10px;
 }
 #nav ul li{
     list-style-type: none;
-    margin: 10px;
+   
 }
 #nav ul li a{
-    background: url(../img/mainnav_bg.gif);
+    background: #A8C087;
+    text-decoration: none;
+    color:#2C4001;
+    font-weight: bold;
+    padding-left: 5px;
+    margin: 1px;
+    border-bottom:#20A21B solid 1px;
+}
+#nav a:hover{
+    text-decoration: underline;
+    color: #20A21B;
+}
+#menu{
+    width: 28%;
+    margin: 0;
+    padding: 0;
+    float: left;
+}
+
+.titulo{
+    background: #A8C087;
+    color: #20A21B;
+    padding-left: 10px;
 }
 i{
-    color: #84BF04;
+    color: #20A21B;
+    padding: 10px;
 }
